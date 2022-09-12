@@ -1,0 +1,43 @@
+
+.accordion {
+    width: 100%;
+    margin: auto;
+    user-select: none;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion-title {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+    background-color: #172E3E;
+    font-weight: 600;
+}
+
+.title-span {
+    filter: contrast(6.08);
+    font-weight: 400;
+}
+
+.accordion-title:hover {
+    background-color: #172E3E;
+}
+
+.accordion-title,
+.accordion-content {
+    padding: 1rem;
+}
+
+.accordion-content {
+    background-color: #172E3E;
+    overflow: hidden;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
