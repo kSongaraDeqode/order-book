@@ -1,4 +1,40 @@
 .orderbook {
     background-color: #172E3E;
     width: 100%;
+    border: 1px solid #091a25;
+}
+
+.accordion-content {
+    padding: 5px;
+}
+
+.accordion-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftFooter {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.external-link {
+    border-right: 1px solid white;
+    padding-right: 4px;
+    margin-right: 12px;
+}
+
+.server-status {
+    background-color: red;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.throttling {
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
